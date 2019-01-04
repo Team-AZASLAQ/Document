@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.6" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\网站\公开\教学资源\文档模板\《评审报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-4QU--Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><评审报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="灵悉" 项目标识="0001" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>zqps_181127</文件标识>
+			<当前版本>v1.0</当前版本>
+			<作者>
+				<姓名>马少波</姓名>
+				<学号>2015011273</学号>
+				<团队>阿珍爱上了阿强</团队>
+			</作者>
+			<完成日期>2018-11-27</完成日期>
+			<版本更新信息><font xmlns="http://www.w3.org/1999/xhtml" face="仿宋_GB2312">V1.0-撰写周期评审报告-马少波</font></版本更新信息>
+		</状态与版本信息>
+	</首部>
+	<标题>灵悉-项目定期评审</标题>
+	<组织名称>阿珍爱上了阿强</组织名称>
+	<评审种类>
+		<定期评审>1</定期评审>
+	</评审种类>
+	<主持人>马少波</主持人>
+	<参加人><div xmlns="http://www.w3.org/1999/xhtml">马少波-项目经理，产品经理（兼）；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">朱宇婷-管理组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">胥文耀-开发组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">陈楠-质保组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">李银亮-配置组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">吴雁铭用-户组组长。</div></参加人>
+	<地点>教二楼-407</地点>
+	<日期>2018-11-26</日期>
+	<提交内容>阿珍爱上了阿强-项目进展报告-v1.0</提交内容>
+	<评审项与结论>
+		<要素>文档是否规范</要素>
+		<评审结果>较为规范</评审结果>
+		<问题和对策>对于部分报告内容，如成本计划层面，报告不充分不详实。</问题和对策>
+	<要素>是否采用了必要的工具</要素><评审结果>是</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">使用腾讯文档对项目文档内容进行统一管理和权限分配；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">使用github公有代码仓库对项目代码进行版本管理和分支分配。</div></问题和对策><要素>技术的准确度</要素><评审结果>准确</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">详细设计部分内容变动：</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Spring Boot内置Web容器，无需另外配置；</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">application.yml 中可配置服务端口port、服务路径servlet-path；</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">可通过mvn clean package打包，通过java -jar xxx.jar 启动服务；</font></div><div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">此版本对应Android APP 1.0.7 + 版本API，配合使用。</font></div></问题和对策><要素>覆盖范围的完整性</要素><评审结果>完整</评审结果><问题和对策>无</问题和对策><要素>行文是否通顺易懂</要素><评审结果>是</评审结果><问题和对策>无</问题和对策><要素>开发是否按计划进行</要素><评审结果>按计划进行</评审结果><问题和对策>定期开展项目同步会议；保证每位组长；每位组员都能掌握项目的实时情况。</问题和对策><要素>是否采用了版本管理</要素><评审结果>是</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">文档草稿均为为.doc格式，使用腾讯文档进行管理；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">正式版本v1.0由项目经理整理编写</div></问题和对策><要素>是否有基线控制</要素><评审结果>有</评审结果><问题和对策><div xmlns="http://www.w3.org/1999/xhtml">基线变更权限仅对项目经理开放；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目经理须制定每份文档的checklist；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目经理须保证基线的稳定性。</div></问题和对策><要素>是否反映真实情况</要素><评审结果>是</评审结果><问题和对策>无</问题和对策><要素>所反映的问题是否有解决措施</要素><评审结果>是</评审结果><问题和对策>开发组长及项目经理须及时跟进项目；确保问题解决措施的落地。</问题和对策></评审项与结论>
+	<总结><div xmlns="http://www.w3.org/1999/xhtml">本次定期评审对“灵悉”项目展开进展评审；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">该评审由以下几个检查项组成：</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">文档是否规范</li>
+<li align="justify">是否采用了必要的工具</li>
+<li align="justify">技术的准确度</li>
+<li align="justify">覆盖范围的完整性</li>
+<li align="justify">行文是否通顺易懂</li>
+<li align="justify">开发是否按计划进行</li>
+<li align="justify">是否进行了版本管理</li>
+<li align="justify">是否有基线控制</li>
+<li align="justify">是否反映真实情况</li>
+<li align="justify">所反映的问题是否有解决措施</li></ul>
+<div align="justify"> </div>
+<div align="justify">经过团队各小组组长的评定和交流；此次评审通过；后期需要对提出的问题和措施持续跟进。</div>
+<div align="justify">由项目经理监督并督促措施落地，保证问题顺利解决；</div>
+<div align="justify">项目团队各组组长需向组员同步此次评审会议结果。</div>
+<div align="justify"> </div></div></总结>
+	<签字>马少波；胥文耀；朱宇婷；陈楠；李银亮；吴雁铭</签字>
+	<附件>
+		<其他材料><div xmlns="http://www.w3.org/1999/xhtml">
+<ol style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li>灵悉-需求说明书-Ver1.1 </li>
+<li>灵悉-概要设计说明书-Ver1.3 </li>
+<li>灵悉-详细设计说明书-Ver1.3 </li>
+<li>灵悉-项目计划书-Ver1.1 </li>
+<li>灵悉-配置管理计划-Ver1.1 </li>
+<li>灵悉-质量保证计划-Ver1.1 </li>
+<li>灵悉-任务书-Ver1.1 </li>
+<li>灵悉-概要设计评审报告-Ver1.0 </li>
+<li>灵悉-详细设计评审报告-Ver1.0</li>
+<li>灵悉-项目进展报告-v1.0</li></ol></div></其他材料>
+		<评审记录><div xmlns="http://www.w3.org/1999/xhtml">阿珍爱上了阿强开发工作室-就“灵悉”项目开展第一次定期评审会议</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">地点：教二-407 时间：2018.11.26 14:30</div>
+<div xmlns="http://www.w3.org/1999/xhtml">参与人员：</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> 马少波-项目经理，产品经理（兼）；</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> 朱宇婷-管理组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> 胥文耀-开发组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> 陈楠-质保组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> 李银亮-配置组组长；</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> 吴雁铭用-户组组长。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">会议纪要：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1.由各组组长根据项目进展报告汇报各自组项目进度；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.就部分项目进度拖延事项讨论提出解决方案；以及总结风险形成原因；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.项目经理向各组组长明确接下来的任务：以开发出基本功能的app为主要目标；着重配置管理方面的建设。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">会议记录：马少波</div>
+<div xmlns="http://www.w3.org/1999/xhtml">定稿时间：2018.11.27</div></评审记录>
+	</附件>
+</评审报告>

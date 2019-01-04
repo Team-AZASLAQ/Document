@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.16" PIVersion="1.0.0.0" href="file:///C:\temp\《招标书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-K7V-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><招标书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="灵悉" 项目标识="0001" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识></文件标识>
+			<当前版本>0.1</当前版本>
+			<作者>
+				<姓名>吴雁铭</姓名>
+				<学号>2015011226</学号>
+				<团队>阿珍爱上了阿强</团队>
+			</作者>
+			<完成日期>2018-09-29</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml">2018.9.27 吴雁铭 完成了团队招标书草稿版本</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2018.10.15 吴雁铭 新增上个版本中空缺的内容，并发布了正式版本</div></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员></使用人员>
+			<编写目的></编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">本公司业务面向青少年动漫论坛-DiliDili-依托于社交群组实现一个Android端app；内容涉及二次元好友向社交圈，供用户吐槽交流</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li><font size="2" face="宋体">用户注册登陆</font> </li>
+<li><font size="2" face="宋体">解析网页以瀑布流展示番剧</font> </li>
+<li><font size="2" face="宋体">网页视频播放支持全屏</font> </li>
+<li><font size="2" face="宋体">动态发布点赞评论</font> </li>
+<li><font size="2" face="宋体">分享链接到灵悉</font> </li>
+<li><font size="2" face="宋体">app内更新现采用获取到更新前往浏览器更新的模式</font> </li>
+<li><font size="2" face="宋体">Toast彩蛋</font> </li>
+<li><font size="2" face="宋体">个人信息修改</font> </li>
+<li><font size="2" face="宋体">动态发布支持话题</font> </li>
+<li><font size="2" face="宋体">动态支持@用户</font></li></ul></div></背景>
+			<定义与缩写>
+				<术语>社交群组</术语>
+				<解释>随着移动互联网的发展，社会人群关系逐渐形成了依托与社交网络的新型社交社群：特点是无空间限制、匿名性、年轻化、兴趣化；特别是根据不同的人群兴趣形成了不同的圈子比如BiliBili圈子面向动漫爱好者的社群团体。</解释>
+			<术语>二次元</术语><解释><div xmlns="http://www.w3.org/1999/xhtml">
+<div class="lemma-summary" label-module="lemmaSummary">
+<div class="para" label-module="para"><font size="2" face="宋体">该词始于日本，早期的日本动画、游戏作品都是以<a href="" target="_blank"><font color="#000000">二维</font></a>图像构成的，其画面是一个平面，所以被称为是“二次元世界”，简称“二次元”，而与之相对的是“三次元”，即“我们所存在的这个次元”，也就是现实世界。二次元是指人类幻想出来的唯美世界，用各种憧憬的体现虐袭观赏者的视觉体验，本质其实还是三次元世界的人类心中模糊的美好印象。</font><font size="2" face="宋体"></font></div></div></div></解释><术语>瀑布流</术语><解释><div xmlns="http://www.w3.org/1999/xhtml">在app主界面显示近期新更新的番剧；形成已两栏卡片形式的格局展示给客户；客户动作主要通过下滑操作查看内容展示，拟物成瀑布流。 </div></解释><术语> Toast彩蛋</术语><解释>当用户使用app时，会在第一次切入某界面时在屏幕下部出现toast提示信息，该信息会以比较“萌化、年轻化”的形式展示给用户，符合青少年二次元人群的兴趣倾向。</解释></定义与缩写>
+			<参考资料>
+				<条目>《人月神话》Frederick P.Brooks.Jr著，汪颖译-清华大学出版社-2007年9月第二版</条目><条目>《第一行代码-Android》人民邮电出版社，出版时间：2016-12-01</条目><条目><span title="二次元、Emoji、老司机：历史与流行文化·十五言BiLili文集（果壳·十五言系列）" class="title_words" xmlns="http://www.w3.org/1999/xhtml">次元(次元文化用语)-维基百科：<a href="https://zh.wikipedia.org/wiki/">https://zh.wikipedia.org/wiki/</a></span></条目><条目><font color="#000000" xmlns="http://www.w3.org/1999/xhtml">国内动漫衍生品市场的现状与前景-赵路平 - 西南民族大学学报: 人文社会科学版, 2007 - cqvip.com</font><span title="二次元、Emoji、老司机：历史与流行文化·十五言BiLili文集（果壳·十五言系列）" class="title_words" xmlns="http://www.w3.org/1999/xhtml"></span></条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<文件编号>0001</文件编号>
+	<招标邀请>
+		<说明><div xmlns="http://www.w3.org/1999/xhtml">   本公司诚挚邀请阿珍爱上了阿强团队设计并开发一款Androoid端社交app，该app应已二次元动漫文化为主题，年轻化、活泼化为基调。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目经费为叁拾万元整。初步定于11月底完成项目交付，以及尾款支付。</div></说明>
+		<招标内容>二次元-社交圈子app</招标内容>
+		<标书售价>伍佰元</标书售价>
+		<投标截止时间>2018-10-03</投标截止时间>
+		<开标时间>2018-10-07</开标时间>
+		<招标单位>
+			<联系人></联系人>
+			<电话></电话>
+			<传真></传真>
+			<单位></单位>
+			<日期></日期>
+		</招标单位>
+	</招标邀请>
+	<投标须知>
+		<说明><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">1.1   本招标文件仅适用于本招标文件第一章第1条中所述项目的招标。</font></div>
+<div><font size="2" face="宋体">1.2   招标内容：见本招标文件第一章第2条中所述</font></div>
+<div><font size="2" face="宋体">1.3   本项目实施地点：见本招标文件第一章第3条中所述</font></div></div></说明>
+		<招标方式>公开招标</招标方式>
+		<投标商要求><div xmlns="http://www.w3.org/1999/xhtml">
+<ol style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="a">
+<ol style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="a">
+<li align="justify">在中国境内注册的独立法人；注册资金不低于500万元人民币；</li>
+<li align="justify">具有良好的银行资信和商业信誉，没有处于被责令停业或破产状态；并在人员、技术、资金等方面具有相应的服务能力；</li>
+<li align="justify">本项目不接受联合体投标。</li></ol></ol></div></投标商要求>
+		<投标文件要求><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体"><strong>1、投标的语言及度量衡单位</strong></font></div>
+<div><font size="2" face="宋体">1.1   投标人的投标文件以及投标人与招标人就有关投标的所有来往函电均须使用中文。</font></div>
+<div><font size="2" face="宋体">1.2   除另有规定外，投标文件所使用的度量衡均须采用法定计量单位。</font></div>
+<div><font size="2" face="宋体"><strong>2、投标文件组成及格式</strong></font></div>
+<div><font size="2" face="宋体">2.1  投标文件应包括商务部分（含投标报价部分）和技术部分，商务部分（含投标报价部分）和技术部分可分别编制或统一编制，中间以彩页分开。</font></div>
+<div><font size="2" face="宋体">2.2  商务部分（含投标报价部分）：</font></div>
+<div><font size="2" face="宋体">除投标报价部分外，商务部分应提供以下证明文件，请投标人按照本招标文件的格式要求编制投标文件。若招标文件中没有固定格式的表格或内容，请投标人自行设计格式编制相关内容。</font></div>
+<div><font size="2" face="宋体">（1）有效的企业法人营业执照、税务登记证、组织机构代码证等复印件（需加盖公章）；</font></div>
+<div><font size="2" face="宋体">（2）公司简历、承建过的主要相关项目；</font></div>
+<div><font size="2" face="宋体">（3）生产或销售许可证、代理证书、鉴定证书复印件；</font></div>
+<div><font size="2" face="宋体">（4）组织机构和主要人员；</font></div>
+<div><font size="2" face="宋体">（5）最近三年来的主要客户名单；</font></div>
+<div><font size="2" face="宋体">（6）投标人认为必要的其它文件。</font></div>
+<div><font size="2" face="宋体">2.3 技术部分：</font></div>
+<div><font size="2" face="宋体">（1）主要硬件产品技术性能及参数等</font></div>
+<div><font size="2" face="宋体">（2）企业同类业绩及证明材料；</font></div>
+<div><font size="2" face="宋体">（3）技术支持及售后服务；</font></div>
+<div><font size="2" face="宋体">2.4   投标人必须对其投标文件的真实性与准确性负责。投标人一旦中标，其投标文件将作为合同的重要组成部分。</font></div>
+<div><font size="2" face="宋体">2.5   投标人不得在未征得招标人许可的情况下，擅自对招标文件的格式、条款和要求进行实质性修改。否则，其投标文件在评标时有可能被认为是未对招标文件做出实质性的响应而中止对其作进一步的评审。</font></div></div></投标文件要求>
+		<名词解释>
+			<招标方></招标方>
+			<投标方></投标方>
+		</名词解释>
+	</投标须知>
+	<招标项目要求>
+		<项目系统现状目标与功能要求><div xmlns="http://www.w3.org/1999/xhtml"><strong>1</strong>.项目系统目标：</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">   1.1 开发意图</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">        志在构建一个二次元爱好者的聚集地，实现不同龄人之间更好地交流，一起成长，一起进步。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   1.2 应用目标</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">        本科毕业大学生、二次元爱好者、小说迷、游戏专家、音乐达人、弹幕居民......</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   1.3 作用范围</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">        面向安卓用户</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   1.4 背景</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">        随着移动互联网的快速发展，人与人的社交重心从线下逐渐转移至线上，在这个过程中形成客诸多以兴趣为核心聚集</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">的社交网络圈子，如BiliBili等动漫爱好圈子；但目前同类竞品中并未针对动漫爱好者提供专门的社交平台，本app以此为卖点，解决了市面上的动漫平台已平台内容</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">为主、社交诉求为辅的痛点。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">1.5 与其他软件的关系</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">        app全部番剧资源皆来自DiliDili动漫平台。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">        设置功能为隐藏聚集地的申请路径（qq群）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><strong>2.</strong>项目功能要求：</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">   2.1登录 注册</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   2.2 首页</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.2.1 番剧</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">            具体分为“季度列表、番剧列表、类型列表”三大类，以左右滑动完成类别的切换，主体内容使用两栏瀑布流卡片展示，方便用户检索。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      </font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   2.3 圈子</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.3.1 动态</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">            仿照qq空间完成功能设计、但陌生人之间的动态都可以互相看到并评论。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   2.4 消息</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.4.1 与开发者对话</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">   2.5 我的信息</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.5.1 设置：隐藏聚集地的申请路径（qq群）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.5.2 与我相关</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.5.3 我的回复</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">      2.5.4 退出</font></div></项目系统现状目标与功能要求>
+		<招标内容及要求><div xmlns="http://www.w3.org/1999/xhtml">1、中标团队必须严格按照我方产品需求完成设计、开发、测试、交付工作；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、中标团队需在我方规定交付时间内完成项目的交付；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3、待完成交付及我方多通测试后，符合要求方可支付尾款。</div></招标内容及要求>
+		<评价标准及要求><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">3  评标委员会将从以下几方面评审投标文件：</font></div>
+<div><font size="2" face="宋体">①成功范例和相关经验；</font></div>
+<div><font size="2" face="宋体">②对本招标书各项要求的满足程度；</font></div>
+<div><font size="2" face="宋体">③性能/报价比；</font></div>
+<div><font size="2" face="宋体">④售后服务。</font></div></div></评价标准及要求>
+	</招标项目要求>
+	<合同说明>
+		<合同专用条款></合同专用条款>
+		<合同通用条款></合同通用条款>
+		<合同格式>合同应分为三份：知识产权所有协议、保密协议、以及劳务合同。一式两份，双方各持一份。</合同格式>
+	</合同说明>
+	<附件>
+		<投标书格式></投标书格式>
+		<分项报价表格式></分项报价表格式>
+		<法定代表人授权书格式></法定代表人授权书格式>
+		<资质证明文件格式></资质证明文件格式>
+		<保证金保函格式></保证金保函格式>
+		<投标人情况表格式></投标人情况表格式>
+		<投标人财务状况表格式></投标人财务状况表格式>
+		<投标人专业技术人员一览表格式></投标人专业技术人员一览表格式>
+		<其他></其他>
+	</附件>
+</招标书>

@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.3" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《测试案例》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--E8--Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><测试用例 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="灵悉" 项目标识="0001" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>0001</文件标识>
+			<当前版本>v1.0</当前版本>
+			<作者>
+				<姓名>陈楠</姓名>
+				<学号>2015012626</学号>
+				<团队>阿珍爱上了阿强</团队>
+			</作者>
+			<完成日期>2018-12-28</完成日期>
+			<版本更新信息></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>包括编写测试报告的人员、测试组全体成员、后续产品维护人员以及需要使用到测试文档的人员</使用人员>
+			<编写目的><div xmlns="http://www.w3.org/1999/xhtml">1.历史借鉴。对于长期支持或修订产品的一部分是至关重要的策略</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.测试进程跟踪。可以跟踪一些额外属性：如测试用例执行数目，测试用例失败或通过数目等</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.可重复性。</div></编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">1.工程即将进入测试阶段</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.软件本体开发基本完成</div></背景>
+			<定义与缩写>
+				<术语></术语>
+				<解释></解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>阿珍爱上了阿强-软件需求说明-v1.1</条目><条目>阿珍爱上了阿强-概要设计说明-v1.0</条目><条目>阿珍爱上了阿强-详细设计说明-v1.2</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<项目>
+		<测试项目名称><font face="SimSun" xmlns="http://www.w3.org/1999/xhtml">用户注册、登录模块测试-register-1</font></测试项目名称>
+		<测试人员>陈楠</测试人员>
+		<测试时间>2018-12-24</测试时间>
+		<测试内容>输入正确注册信息系统是否能够正常注册</测试内容>
+		<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">Android 5.0及以上 </font></div></div></测试环境与系统配置>
+		<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">1、用户名“admin” 密码“admin”</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、用户名“abc”密码“abc”</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试输入数据>
+		<测试次数>2</测试次数>
+		<预期结果><div xmlns="http://www.w3.org/1999/xhtml">1、注册成功</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、注册成功</div></预期结果>
+		<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户注册</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font>单击注册,进入用户注册界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体"></font>1、在用户名输入“admin”在密码处输入“admin”，点击注册</div>
+<div>2、在用户名处输入“abc”在密码处输入“abc”，点击注册</div></td></tr></tbody></table></div></测试过程>
+		<测试结果><div xmlns="http://www.w3.org/1999/xhtml">1、注册成功</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、注册成功</div></测试结果>
+		<测试结论>用户注册成功功能未检测出错误</测试结论>
+		<实现限制></实现限制>
+		<备注></备注>
+	</项目>
+<项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">用户注册、登录模块测试-register-2</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>输入错误注册信息系统是否能够显示出错信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">1、用户名“”密码“”</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、用户名“admin”密码“admin”</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试输入数据>
+									<测试次数>2</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">1、注册失败</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、注册失败，显示已注册</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户注册</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font>单击注册,进入用户注册界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>1、不进行填写，直接点击注册</div>
+<div>2、在用户名输入“admin”在密码处输入“admin”，点击注册</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">1、注册失败</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、注册失败，显示已注册</div></测试结果>
+									<测试结论>用户注册失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">用户注册、登录模块测试-login-1</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>登录时用户名和密码匹配一致能否正确登录</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">1、用户名“admin”密码“admin”</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、用户名“abc”密码“abc”</div></测试输入数据>
+									<测试次数>2</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">1、登录成功</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、登录成功</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户登录</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font>单击登录,进入用户登录界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>1、在用户名输入“admin”在密码处输入“admin”，点击登录</div>
+<div>2、在用户名输入“abc”在密码处输入“abc”，点击登录</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">1、登录成功</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、登录成功</div></测试结果>
+									<测试结论>用户登录成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">用户注册、登录模块测试-login-2</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>在登录界面输入不匹配的用户名和密码或不输入能否显示出错信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">1、用户名“admin”密码“123”</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、用户名“”密码“”</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试输入数据>
+									<测试次数>2</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">1、登录失败，显示用户名密码不匹配</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、登录失败，显示用户名密码不为空</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户登录</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font>单击登录,进入用户登录界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>1、在用户名输入“admin”在密码处输入“123”，点击登录</div>
+<div>2、不输入，直接点击登录</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">1、登录失败，显示用户名密码不匹配</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2、登录失败，显示用户名密码不为空</div></测试结果>
+									<测试结论>用户登录失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">用户注册、登录模块测试-login-3</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>未退出账号二次进入系统</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">点击进入软件</div></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">成功进入，无需登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户登录后二次进入</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>用户登录后未退出登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击进入app</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">成功进入，无需登录</div></测试结果>
+									<测试结论>二次登陆功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户找回密码-findpassword-1</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>在用户找回密码界面输入正确的验证信息并修改密码</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>将admin密码修改为admin123</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">用户修改密码成功；</font></div>
+<div><font size="2" face="宋体">系统修改数据库中的用户密码；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">软件自动登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户找回密码</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>用户点击找回密码，进入找回密码界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>按照提示图片输入正确验证码信息，在密码处输入“admin123”，点击找回密码</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">用户修改密码成功；</font></div>
+<div><font size="2" face="宋体">系统修改数据库中的用户密码；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">软件自动登录</div></测试结果>
+									<测试结论>用户找回密码成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户找回密码-findpassword-2</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>在用户找回密码界面不输入任何信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>空</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">用户修改密码失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示错误信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户找回密码</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>用户点击找回密码，进入找回密码界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>不输入信息，点击找回密码</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">用户修改密码失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示错误信息</div></测试结果>
+									<测试结论>用户找回密码写空失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户找回密码-findpassword-3</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>在用户找回界面输入错误的验证信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>将admin密码修改为admin123</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">用户修改密码失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示错误信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户找回密码</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>用户点击找回密码，进入找回密码界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>输入错误验证信息，点击找回密码</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">用户修改密码失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示错误信息</div></测试结果>
+									<测试结论>用户找回密码失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户发表动态-sendnews-1</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>未登录用户发表动态</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>评论处“哈哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发表动态失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">提示用户未登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户发表动态</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>未登录用户点击编辑，进入编辑动态界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>输入“哈哈哈哈”，点击发送</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发表动态失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">提示用户未登录</div></测试结果>
+									<测试结论>未登录用户发表动态失败功能为检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户发表动态-sendnews-2</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>已登录用户发表合法动态</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>评论框输入“哈哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发表动态成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统刷新动态界面</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户发表动态</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>已登录用户点击编辑，进入编辑动态界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>输入“哈哈哈哈”，点击发送</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发表动态成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统刷新动态界面</div></测试结果>
+									<测试结论>已登录用户发表合法动态成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户发表动态-sendnews-3</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-24</测试时间>
+									<测试内容>已登录用户发表不合法动态</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>输入为空</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发表动态失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示动态信息含有违法信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户发表动态</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>用户点击编辑，进入编辑动态界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击发送</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发表动态失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示动态信息含有违法信息</div></测试结果>
+									<测试结论>已登录用户发表不合法动态失败功能为检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户发表评论-sendreview-1</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>未登录用户在动态信息界面发布评论</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>输入“哈哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发布评论失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示用户未登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户发表评论</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>未登录用户点击动态下评论框图，进入编辑评论界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>输入“哈哈哈哈”，点击发送</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发布评论失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示用户未登录</div></测试结果>
+									<测试结论>未登录用户在动态信息界面发布评论失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户发表评论-sendreview-2</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>已登录用户在动态信息界面发布合法评论</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>输入“哈哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>发布评论成功</预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户发表评论</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>已登录用户点击动态下评论框图，进入编辑评论界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>输入“哈哈哈哈”，点击发送</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果>发布评论成功</测试结果>
+									<测试结论>已登录用户在动态信息界面发布合法评论成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户发表评论-sendreview-3</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>已登录用户在动态信息界面发布不合法评论</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>输入空</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发布评论失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示用户评论信息不合法</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户发表评论</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>已登录用户点击动态下评论框图，进入编辑评论界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击发送</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">发布评论失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示用户评论信息不合法</div></测试结果>
+									<测试结论>已登录用户在动态信息界面发布不合法评论失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户观看视频-watchmovie-1</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>用户在主界面点击有效视频进行播放</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>点击有效视频</测试输入数据>
+									<测试次数>5</测试次数>
+									<预期结果>系统进入视频播放界面播放视频</预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户观看视频</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>已登录用户进入主页面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击有效视频播放</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果>系统进入视频播放界面播放视频</测试结果>
+									<测试结论>用户在主界面点击有效视频进行播放成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>用户观看视频-watchmovie-2</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>用户在主界面点击已失效视频进行播放</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">点击无效视频</div></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>系统提示视频失效</预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体"></font>用户观看视频</div></td></tr>
+<tr>
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>已登录用户进入主页面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击无效视频播放</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果>系统提示视频失效</测试结果>
+									<测试结论>用户在主界面点击已失效视频进行播放失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font face="SimSun" xmlns="http://www.w3.org/1999/xhtml">管理员管理用户信息-ManageInfo-1</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号未登录查找用户</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>查找框中输入“admin”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示账号未登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找用户</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号未登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框中输入“admin”</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示账号未登录</div></测试结果>
+									<测试结论>管理员账号未登录查找用户失败功能为检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">管理员管理用户信息-ManageInfo-2</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号登录查找存在用户</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">查找框中输入“admin”</div></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统显示用户信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找用户</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框中输入“admin”</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统显示用户信息</div></测试结果>
+									<测试结论>管理员账号登录查找存在用户成功功能为检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">管理员管理用户信息-ManageInfo-3</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号已登录查找不存在用户</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>查找框中输入“ppap”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示用户不存在</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找用户</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框中输入“ppap”</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示用户不存在</div></测试结果>
+									<测试结论>管理员账号已登录查找不存在用户失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">管理员管理用户信息-ManageInfo-4</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员修改用户信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">将admin的密码改为“admin123456”</div></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">修改成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员修改用户信息</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录，找到用户admin，点击进入修改界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>将admin的密码改为“admin123456”，点击确认修改</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">修改成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></测试结果>
+									<测试结论>管理员修改用户信息功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">管理员管理用户信息-ManageInfo-5</font></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员删除用户信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>删除用户“abc”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">删除成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员删除用户信息</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录，找到用户abc</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击删除</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">删除成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></测试结果>
+									<测试结论>管理员删除用户信息功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><div xmlns="http://www.w3.org/1999/xhtml">
+<div align="justify">管理员管理动态评论-ManageNews-1</div></div></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号未登录查找动态</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>查找框输入“哈哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示账号未登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找动态</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号未登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框输入“哈哈哈哈”，点击查找</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示账号未登录</div></测试结果>
+									<测试结论>管理员账号未登录查找动态失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><div xmlns="http://www.w3.org/1999/xhtml" align="justify">管理员管理动态评论-ManageNews-2</div></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号登录查找存在动态</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>查找框输入“哈哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统显示符合的动态或评论信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找动态</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框输入“哈哈哈哈”，点击查找</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统显示符合的动态或评论信息</div></测试结果>
+									<测试结论>管理员账号登录查找存在动态成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><div xmlns="http://www.w3.org/1999/xhtml" align="justify">管理员管理动态评论-ManageNews-3</div></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员对查询出的动态或评论进行编辑</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>将动态“哈哈哈哈”改为“哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">编辑成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员修改动态</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录，找到动态“哈哈哈哈”，点击进入修改界面</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>将动态“哈哈哈哈”改为“哈哈哈”，点击确认修改</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">编辑成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></测试结果>
+									<测试结论>管理员对查询出的动态或评论进行编辑功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><div xmlns="http://www.w3.org/1999/xhtml" align="justify">管理员管理动态评论-ManageNews-4</div></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员删除查询出的动态或评论</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>删除动态“哈哈哈”</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">删除成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员删除动态</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录，找到动态“哈哈哈”</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>点击确认删除</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">删除成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志信息</div></测试结果>
+									<测试结论>管理员删除查询出的动态或评论功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>管理员管理视频信息-ManageMovie-1</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号未登录查找视频信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>查找名侦探柯南</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示账号未登录</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找视频</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号未登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框输入“名侦探柯南”，点击查找</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找失败；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统提示账号未登录</div></测试结果>
+									<测试结论>管理员账号未登录查找视频信息失败功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>管理员管理视频信息-ManageMovie-2</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员账号已登录查找视频信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>查找名侦探柯南</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统显示符合的视频信息</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员查找视频</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号已登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>查找框输入“名侦探柯南”，点击查找</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">查找成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统显示符合的视频信息</div></测试结果>
+									<测试结论>管理员账号已登录查找视频信息成功功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>管理员管理视频信息-ManageMovie-3</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-25</测试时间>
+									<测试内容>管理员更新视频信息</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">Android 5.0及以上 </font></div></测试环境与系统配置>
+									<测试输入数据>更新名侦探柯南的信息</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">更新成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志</div></预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 384px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 107px"/>
+<col style="WIDTH: 277px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-BOTTOM-COLOR: ">
+<div><font size="2" face="宋体">场景</font></div></td>
+<td style="BORDER-BOTTOM-COLOR: ">
+<div>管理员更新视频</div></td></tr>
+<tr style="MIN-HEIGHT: 16px">
+<td style="BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">前提条件</font></div></td>
+<td>
+<div>管理员账号登录</div></td></tr>
+<tr style="MIN-HEIGHT: 17px">
+<td style="BORDER-TOP-COLOR: ; BORDER-RIGHT-COLOR: ">
+<div><font size="2" face="宋体">执行步骤</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div>找到名侦探柯南，输入修改信息，点击更新</div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试过程>
+									<测试结果><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">更新成功；</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统记录日志</div></测试结果>
+									<测试结论>管理员更新视频信息功能未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>安全性测试：用户操作安全检测-OperationSafety</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">登陆限制检测 </font></div>
+<div><font size="2" face="宋体">注册检测 </font></div>
+<div><font size="2" face="宋体">弱口令检测 </font></div>
+<div><font size="2" face="宋体">验证码检测 </font></div></div></测试内容>
+									<测试环境与系统配置>安卓8.0</测试环境与系统配置>
+									<测试输入数据></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>通过</预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">登陆限制检测  经过检测，被测app没有错误密码登陆限制，攻击者可对app实行暴力破解</font></div>
+<div><font size="2" face="宋体">注册检测 对手机号格式有限制，可以保证注册者输入正确手机号</font></div>
+<div><font size="2" face="宋体">弱口令检测 被测app对于口令没有格式限制，容易早晨口令过于简单。</font></div>
+<div><font size="2" face="宋体">验证码检测 本app未实习验证码检测</font></div></div></测试过程>
+									<测试结果>通过</测试结果>
+									<测试结论>用户操作安全测试未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>安全性测试：数据安全测试-Datasecurity</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">          信息安全检测 </font></div>
+<div><font size="2" face="宋体">          本地存储检测  </font></div>
+<div><font size="2" face="宋体">          防录屏检测   </font></div>
+<div><font size="2" face="宋体">          数据清除检测  </font></div></div></测试内容>
+									<测试环境与系统配置>安卓8.0</测试环境与系统配置>
+									<测试输入数据></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>通过</预期结果>
+									<测试过程><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">          信息安全检测 被测app用户个人资料经过隐蔽处理。</font></div>
+<div><font size="2" face="宋体">          本地存储检测  在本地存储目录下文件信息进行加密处理。</font></div>
+<div><font size="2" face="宋体">          防录屏检测   被测app未做防录屏处理。</font></div>
+<div><font size="2" face="宋体">          数据清除检测  删除app后本地未留下残余信息。</font></div></div></测试过程>
+									<测试结果>通过</测试结果>
+									<测试结论>数据安全测试未检测出错误</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>性能测试：并发测试-Concurrent</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容>并发测试</测试内容>
+									<测试环境与系统配置>安卓8.0 loadrunner9.5</测试环境与系统配置>
+									<测试输入数据>测试用户数量100</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>测试通过</预期结果>
+									<测试过程>100个用户同事访问某个功能点，进行单独压力测试。本测试中 100用户同时访问主页面，查看反应时间。</测试过程>
+									<测试结果>测试通过</测试结果>
+									<测试结论>并发测试未检测出问题</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>性能测试：压力测试-Pressure</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容>压力测试</测试内容>
+									<测试环境与系统配置>安卓8.0 loadrunner9.5</测试环境与系统配置>
+									<测试输入数据>加压方案 每5s增加10个用户，直到加到100个为止；减压测试，从100个开始，每5s减少10用户，直到停止为止。</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>测试通过</预期结果>
+									<测试过程>加压方案 每5s增加10个用户，直到加到100个为止；减压测试，从100个开始，每5s减少10用户，直到停止为止。测试结果显示事物响应时间，用户运行情况等均符合正常。</测试过程>
+									<测试结果>测试通过</测试结果>
+									<测试结论>压力测试未检测出问题</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称>性能测试：破坏性测试-Destructive</测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容>性能测试</测试内容>
+									<测试环境与系统配置>安卓8.0 loadrunner9.5</测试环境与系统配置>
+									<测试输入数据>测试用户数量100</测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>测试通过</预期结果>
+									<测试过程>100用户同时访问某一资源，查看响应时间等数字。由于本app资源调用优酷接口，固测试结果时间并未有显著改变。</测试过程>
+									<测试结果>测试通过</测试结果>
+									<测试结论>破坏性测试未检测出问题</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">兼容性测试-Compatibility</font></div></div></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容>兼容性测试</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">360f4s,小米，华为，魅族，vivo,oppo，锤子</font></div>
+<div><font size="2" face="宋体">(本app只针对于安卓开发 ios并未涉及) </font></div>
+<div>安卓8.0及以上</div></div></测试环境与系统配置>
+									<测试输入数据></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>可以在各个机型上流畅运行，并未出现不兼容现象，屏幕分布合理，无黑屏，闪退等现象</预期结果>
+									<测试过程>在各个机型上运行</测试过程>
+									<测试结果>可以在各个机型上流畅运行，并未出现不兼容现象，屏幕分布合理，无黑屏，闪退等现象</测试结果>
+									<测试结论>兼容性测试未检测出问题</测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目><项目>
+									<测试项目名称><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">系统安装测试-installation</font></div></div></测试项目名称>
+									<测试人员>陈楠</测试人员>
+									<测试时间>2018-12-26</测试时间>
+									<测试内容>系统安装测试</测试内容>
+									<测试环境与系统配置><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">测试机型 360f4s,小米，华为，魅族，vivo,oppo，锤子</font></div>
+<div><font size="2" face="宋体">(本app只针对于安卓开发 ios并未涉及)</font></div>
+<div><font size="2" face="宋体">系统版本 安卓8.0及以上</font></div></div></测试环境与系统配置>
+									<测试输入数据></测试输入数据>
+									<测试次数>1</测试次数>
+									<预期结果>可以在各个机型上安装</预期结果>
+									<测试过程>在各个机型上安装app</测试过程>
+									<测试结果>可以在各个机型上安装，除360手机外，并未出现不兼容现象</测试结果>
+									<测试结论><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">360手机app安装前必须经过360检测，检测合格方能安装，有时app会检测为未知故无法安装，考虑到360手机为小众手机，其他机型上安装升级均没有误差，故测试合格。</font></div></div></测试结论>
+									<实现限制></实现限制>
+									<备注></备注>
+								</项目></测试用例>

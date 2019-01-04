@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.2" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《测试报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--EU--Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><测试报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="灵悉" 项目标识="0001" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>0001</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>朱宇婷</姓名>
+				<学号>2015011328</学号>
+				<团队>阿珍爱上了阿强</团队>
+			</作者>
+			<完成日期>2018-12-28</完成日期>
+			<版本更新信息>本版本为正式发布版本</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>项目经理、软件开发人员、软件测试人员</使用人员>
+			<编写目的>对测试的结果进行汇总，帮助软件开发人员完善软件。</编写目的>
+			<背景>按瀑布模型进行项目开发，对已经开发完成的项目进行测试，已完成测试的计划和执行，对测试执行结果进行汇总。</背景>
+			<定义与缩写>
+				<术语>黑盒测试（Black ）</术语>
+				<解释>指测试人员不关心程序具体实现的一种测试方法。根据软件的规格对软件进行各种输入和观察软件的各种输出结果来发现软件的缺陷的测试，这类测试不考虑软件内部的运作原理。</解释>
+			</定义与缩写>
+			<参考资料>
+				<条目><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">《软件测试入门与提高》</font></条目><条目><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"></font>《软件测试自动化的引入和应用》</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<测试概要>
+		<测试用例设计><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="MsoTableGridLight msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 690px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" border="1">
+<colgroup>
+<col style="WIDTH: 118px"/>
+<col style="WIDTH: 143px"/>
+<col style="WIDTH: 143px"/>
+<col style="WIDTH: 143px"/>
+<col style="WIDTH: 143px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">测试用例ID</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">场景</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">测试步骤</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">预期结果</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">备注</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC1</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">登录界面显示</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">进入软件</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">界面元素完整，与详细设计一致</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC2</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">用户名录入－验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入已存在的用户名：test </font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC3</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">用户名－容错性验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入：aaaaaaaA-</font></div>
+<div><font size="2" face="宋体">-aaaaaaaaaa</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入到大写A字符时，系统拒绝输入</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入数据超过规定长度范围</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC4</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码－密码录入</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入与用户名相关联的数据：test</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC5</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录－成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC2，TC4，单击登录按钮</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">登录系统成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC6</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录－用户名、密码校验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">没有输入用户名、密码，单击登录按钮</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录失败，并提示：请检查用户名和密码的输入是否正确</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC7</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录－密码校验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入用户名，没有输入密码，单击登录按钮</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录失败，并提示：需要输入密码</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC8</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录－密码有效性校验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入用户名，没有输入密码，单击登录按钮</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录失败，并提示：需要输入密码</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC9</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录－输入有效性校验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入不存在的用户名、密码，单击登录按钮</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录失败，并提示：用户名不存在</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC10</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录 - 安全校验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">连续3次未成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：请输入图片验证码</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC11</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统登录 - 自动登录</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">未退出账号，二次进入软件</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">软件保持登录状态</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC12</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">找回密码界面显示</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">进入找回密码界面</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">界面元素完整，与详细设计一致</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC13</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">用户找回密码 – 容错性验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入不合法的注册邮箱</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：邮箱格式不合法</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC14</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">用户找回密码 – 邮箱验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入合法邮箱和不合法验证信息</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：验证信息错误</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC15</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">用户找回密码 – 邮箱验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入合法邮箱和合法验证信息</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">界面跳转，提示用户输入新密码</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC16</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">设置新密码 – 容错性验证 </font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">不输入新密码</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：密码不得为空</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC17</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">设置新密码 – 容错性验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入：aaaaaaaA-</font></div>
+<div><font size="2" face="宋体">-aaaaaaaaaa</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入到大写A字符时，系统拒绝输入</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入数据超过规定长度范围</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC18</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">设置新密码 – 成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">输入合法长度的密码</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：找回密码成功并自动登录</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC19</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表动态 – 容错性验证</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表空动态</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：动态内容不得为空</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC20</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表动态 – 内容检验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表含违法关键字的动态</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：动态内容违法</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC21</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表动态 – 成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表合法动态信息</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表成功</font></div>
+<div><font size="2" face="宋体">系统刷新动态列表</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC22</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表评论 – 容错性检验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表空评论</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：评论内容为空</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC23</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表评论 – 内容检验</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表含违法信息的评论</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统提示：评论内容不合法</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC24</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表评论 – 成功</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表合法评论</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表成功，刷新动态界面</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC25 </font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">观看视频界面</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">进入观看视频界面</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">界面元素完整，与详细设计一致</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC26 </font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">观看视频</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">点击视频</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">系统进入视频播放界面播放视频</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div></测试用例设计>
+		<测试环境与配置>
+			<硬件环境>运行安卓系统的智能手机设备</硬件环境>
+			<软件环境>Android 5.0 及以上</软件环境>
+		</测试环境与配置>
+		<测试方法和工具><div xmlns="http://www.w3.org/1999/xhtml">测试方法：首先，进行对功能模块进行划分，明确功能测试的人员负责情况。其次对各个模块进行测试。黑盒测试也称功能测试或数据驱动测试，它是在已知产品所应具有的功能，通过测试来检测每个功能是否都能正常使用，在测试时，把程序看作一个不能打开的黑盒子，在完全不考虑程序内部结构和内部特性的情况下，测试者在程序接口进行测试，它只检查程序功能是否按照需求规格说明书的规定正常使用，程序是否能适当地接收输入数锯而产生正确的输出信息，并且保持外部信息（如数据库或文件）的完整性。黑盒测试方法主要有等价类划分、边值分析、因—果图、错误推测等，主要用于软件确认测试。黑盒测试着力于程序外部结构、不考虑内部逻辑结构、针对软件界面和软件功能进行测试。“黑盒法是穷举输入测试，只有把所有可能的输入都作为测试情况使用，才能以这种方法查出程序中所有的错误。实际上测试情况有无穷多个，人们不仅要测试所有合法的输入，而且还要对那些不合法但是可能的输入进行测试。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">工具：运行Android系统的智能手机设备</div></测试方法和工具>
+	</测试概要>
+	<测试结果>
+		<测试执行情况与记录><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="MsoTableGridLight msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 691px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" border="1">
+<colgroup>
+<col style="WIDTH: 153px"/>
+<col style="WIDTH: 331px"/>
+<col style="WIDTH: 207px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">出错测试用例ID</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">问题描述</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">备注</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC1</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">登录界面与详设不符</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC20</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表评论内容筛选不完全</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC23</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表动态内容筛选不完全</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC26 </font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">视频加载速度过慢</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">TC26</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">视频加载中退出时会导致程序中断</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div></测试执行情况与记录>
+		<覆盖分析>测试用例对软件中的输入边界进行测试，发现了一系列在软件运行过程中存在的问题</覆盖分析>
+	</测试结果>
+	<缺陷的统计与分析>
+		<缺陷统计><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<div><font size="2" face="宋体"></font> </div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<table tabIndex="-1" class="MsoTableGridLight msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 691px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" border="1">
+<colgroup>
+<col style="WIDTH: 141px"/>
+<col style="WIDTH: 550px"/></colgroup>
+<tbody>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">问题严重度</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">描述</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">致命缺陷</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">因错误操作导致程序中断</font></div></font></td></tr>
+<tr>
+<td rowSpan="2"><font size="2" face="宋体">
+<div><font size="2" face="宋体">严重错误</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表评论内容筛选不完全</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">发表动态内容筛选不完全</font></div></font></td></tr>
+<tr>
+<td rowSpan="2"><font size="2" face="宋体">
+<div><font size="2" face="宋体">一般性缺陷</font></div></font></td>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">登录界面布局不美观</font></div></font></td></tr>
+<tr>
+<td><font size="2" face="宋体">
+<div><font size="2" face="宋体">视频加载速度过慢</font></div></font></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div></缺陷统计>
+		<缺陷分析>经测试，发现了软件中存在的致命缺陷，严重缺陷和一般性缺陷，致命缺陷和严重缺陷影响软件的运行和使用，一般性缺陷影响用户的使用体验</缺陷分析>
+	</缺陷的统计与分析>
+	<测试结论与建议>
+		<结论>经过测试组对软件的测试，可以发现软件中存在的一个致命缺陷，两个严重缺陷和两个一般性缺陷，可以认为软件开发总体可用，通过修改软件Bug，可以提升软件的稳定性和界面友好性</结论>
+		<建议>加强用户交互界面的友好性、美观性设计，优化代码结构，提高软件运行效率</建议>
+	</测试结论与建议>
+</测试报告>
